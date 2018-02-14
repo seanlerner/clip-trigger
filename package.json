@@ -10,7 +10,7 @@
       "category": "Utility",
       "asar": "false"
     },
-    "icon": "icon.png"
+    "icon": "icon.icns"
   },
   "dependencies": {
     "chalk": "2.3.0",
