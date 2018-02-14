@@ -1,0 +1,17 @@
+<title>To Dos</title>
+<link rel=stylesheet href=../../assets/css/style.css>
+
+<script>
+  const { ipcRenderer } = require('electron')
+
+  ipcRenderer.on('add', (_event, content) => {
+    const li = document.createElement('li')
+    li.innerText = content
+    todos.append(li)
+  })
+</script>
+
+<h1>To Dos</h1>
+
+<ul id=todos>
+</ul>

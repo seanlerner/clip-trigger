@@ -1,0 +1,74 @@
+#!/usr/bin/env node
+
+child_process   = require('child_process')
+chalk           = require('chalk')
+app_dir         = __dirname + '/../'
+electron_binary = app_dir + 'node_modules/electron/dist/Electron.app/Contents/MacOS/Electron'
+
+setup()
+start()
+
+function setup() {
+  process.env.CT_TTY = true
+  process.env.CT_ENV = get_env()
+
+  if (process.argv.includes('debug')) {
+    log('Debug logging on')
+    process.env.CT_LOG_DEBUG = true
+  }
+
+  if (process.argv.includes('debugger')) {
+    log('Will attempt debugger on crash')
+    process.env.CT_DEBUGGER_ON_CRASH = true
+  }
+
+}
+
+function get_env() {
+  if (process.argv.includes('dev'))
+    return 'dev'
+  else if (process.argv.includes('test'))
+    return 'test'
+  else
+    return 'prod'
+}
+
+function write_stderr(data) {
+  if (!should_ignore(data))
+    process.stdout.write(chalk.redBright(data))
+}
+
+function should_ignore(data) {
+  return /Debugger listening on port/.test(data)
+}
+
+function start() {
+  const args = get_args()
+
+  if (args.length > 0)
+    log(`Starting with arg ${args}`)
+
+  log('Spawning Clip Trigger now')
+  log(electron_binary)
+  const child = child_process.spawn(electron_binary, [app_dir, args])
+  child.stdout.on('data', data => process.stdout.write(data))
+  child.stderr.on('data', write_stderr)
+  child.on('close', code => process.exit(code))
+}
+
+function get_args() {
+  let args = []
+
+  if (process.argv.includes('--inspect'))
+    args.push('--inspect')
+  else if (process.argv.includes('--inspect-brk'))
+    args.push('--inspect-brk')
+  else if (process.argv.includes('inspect'))
+    args.push('inspect')
+
+  return args
+}
+
+function log(str) {
+  console.log(chalk.yellow(str))
+}
