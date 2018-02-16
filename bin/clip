@@ -9,8 +9,9 @@ setup()
 start()
 
 function setup() {
-  process.env.CT_TTY = true
-  process.env.CT_ENV = get_env()
+  process.env.CT_TTY      = true
+  process.env.FORCE_COLOR = true
+  process.env.CT_ENV      = get_env()
 
   if (process.argv.includes('debug')) {
     log('Debug logging on')
@@ -49,7 +50,6 @@ function start() {
     log(`Starting with arg ${args}`)
 
   log('Spawning Clip Trigger now')
-  log(electron_binary)
   const child = child_process.spawn(electron_binary, [app_dir, args])
   child.stdout.on('data', data => process.stdout.write(data))
   child.stderr.on('data', write_stderr)
