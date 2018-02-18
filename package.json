@@ -16,8 +16,10 @@
     "chalk": "2.3.0",
     "electron-log": "2.2.14",
     "electron-settings": "3.1.4",
-    "simple-git": "^0.0.0",
+    "fs-extra": "^5.0.0",
     "request": "2.83.0",
+    "simple-git": "^0.0.0",
+    "vorpal": "^1.12.0",
     "yamljs": "0.3.0"
   },
   "devDependencies": {
