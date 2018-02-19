@@ -1,15 +1,9 @@
 {
   "name": "ClipTrigger",
   "description": "Triggers events on content copied to clipboard",
-  "version": "0.0.1",
-  "main": "main.js",
+  "version": "0.0.2",
   "author": "Sean Lerner",
   "build": {
-    "appId": "ClipTrigger",
-    "mac": {
-      "category": "Utility",
-      "asar": "false"
-    },
     "icon": "icon.icns"
   },
   "dependencies": {
@@ -19,7 +13,6 @@
     "fs-extra": "^5.0.0",
     "request": "2.83.0",
     "simple-git": "^0.0.0",
-    "vorpal": "^1.12.0",
     "yamljs": "0.3.0"
   },
   "devDependencies": {
