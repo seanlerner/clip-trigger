@@ -13,3 +13,17 @@ Clip Trigger is a background application that monitors clipboard activity. When 
 ## Using
 
 Copy the two letter shortcode (plus possibly any further details the trigger may require) to your clipboard. See individual triggers for more information on how to use them.
+
+## Creating Triggers
+
+Clip Trigger has been designed to allow you to create your own triggers.
+
+Install existing triggers for examples on how to create triggers.
+
+Your triggers will be installed to:
+
+`~/Library/Application Support/ClipTrigger/triggers`
+
+Place any triggers you create in the same directory.
+
+If you'd like to share your trigger with the world, add it to the [Clip Trigger Directory](https://github.com/seanlerner/clip-trigger-directory).
