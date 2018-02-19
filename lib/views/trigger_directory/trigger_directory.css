@@ -47,15 +47,73 @@ input[type='submit'] {
 }
 
 a {
-    color: white;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
- }
+  color: yellowgreen;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
 
 #submit {
   background: white;
   border-radius: 5px;
   padding: .5rem;
   text-transform: capitalize;
+}
+
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding-right: 2rem;
+}
+
+th {
+  text-align: left;
+  text-decoration: underline;
+  padding-bottom: 0.6rem;
+}
+
+td {
+  padding-bottom: 1rem;
+  vertical-align: top;
+  line-height: 1.4;
+}
+
+th {
+  width: 15%;
+}
+
+th.name {
+  width: 20%;
+}
+
+th.description {
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+#error {
+  color: tomato;
+}
+
+#installed_triggers {
+  margin-bottom: 3rem;
+}
+
+#no_installed_triggers {
+  display: none;
+  margin-top: 1rem;
 }

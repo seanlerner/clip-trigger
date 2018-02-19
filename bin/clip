@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
-child_process   = require('child_process')
 chalk           = require('chalk')
-app_dir         = __dirname + '/../'
-electron_binary = app_dir + 'node_modules/electron/dist/Electron.app/Contents/MacOS/Electron'
+child_process   = require('child_process')
+path            = require('path')
+app_dir         = path.join(__dirname, '..')
+electron_binary = path.join(app_dir, 'node_modules', 'electron', 'dist', 'Electron.app', 'Contents', 'MacOS', 'Electron')
 
 setup()
 start()
@@ -63,8 +64,6 @@ function get_args() {
     args.push('--inspect')
   else if (process.argv.includes('--inspect-brk'))
     args.push('--inspect-brk')
-  else if (process.argv.includes('inspect'))
-    args.push('inspect')
 
   return args
 }
