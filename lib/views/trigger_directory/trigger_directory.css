@@ -87,11 +87,18 @@ td {
   padding-bottom: 1rem;
   vertical-align: top;
   line-height: 1.4;
+}
+
+th {
   width: 15%;
 }
 
-td.description {
-  width: 25%;
+th.name {
+  width: 20%;
+}
+
+th.description {
+  width: 50%;
 }
 
 .center {
