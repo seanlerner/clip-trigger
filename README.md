@@ -14,7 +14,7 @@ Copy. Paste. Enjoy your bacon. That's all it takes to use Clip Trigger.
 
 ## How it works
 
-Clip Trigger is a background application that monitors clipboard. When your clipboard content changes (i.e. after you've copied something to it), it checks to see if there's a predefined trigger "shortcode" and if so, executes a process.
+Clip Trigger is a background application that monitors your clipboard. When your clipboard content changes (i.e. after you've copied something to it), it checks to see if there's a predefined trigger "shortcode" and if so, executes a process.
 
 ## Getting Started
 
