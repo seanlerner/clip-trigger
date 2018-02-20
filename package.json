@@ -1,7 +1,7 @@
 {
   "name": "ClipTrigger",
   "description": "Triggers events on content copied to clipboard",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Sean Lerner",
   "build": {
     "icon": "icon.icns"
