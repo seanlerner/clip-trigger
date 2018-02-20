@@ -1,3 +1,3 @@
 module.exports = {
-  clip_trigger_server: 'http://clip.smallcity.ca/'
+  clip_trigger_server: 'https://clip.smallcity.ca/'
 }
