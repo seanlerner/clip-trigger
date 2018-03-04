@@ -7,17 +7,19 @@
     "icon": "icon.icns"
   },
   "dependencies": {
-    "chalk": "2.3.0",
-    "electron-log": "2.2.14",
-    "electron-settings": "3.1.4",
+    "chalk": "^2.3.0",
+    "electron-log": "^2.2.14",
+    "electron-settings": "^3.1.4",
     "fs-extra": "^5.0.0",
-    "request": "2.83.0",
-    "simple-git": "^0.0.0",
-    "yamljs": "0.3.0"
+    "prettyoutput": "^1.1.1",
+    "request": "^2.83.0",
+    "simple-git": "^1.92.0",
+    "yamljs": "^0.3.0"
   },
   "devDependencies": {
-    "electron": "1.8.2",
-    "electron-builder": "19.56.0"
+    "electron": "^1.8.2",
+    "electron-builder": "^19.56.0",
+    "prettyjson": "^1.2.1"
   },
   "scripts": {
     "pack": "electron-builder --dir",
