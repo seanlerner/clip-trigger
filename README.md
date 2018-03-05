@@ -43,5 +43,4 @@ If you'd like to share your trigger with the world, add it to the [Clip Trigger 
 
 ## Caveats
 
-- if your system tray is short on space, you may not see clip trigger messages
 - if your clipboard contains content, and you copy the exact same content to your clipboard, clip trigger won't pick up that you've copied something new to your clipboard
