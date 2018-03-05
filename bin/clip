@@ -50,7 +50,7 @@ function start() {
   if (args.length > 0)
     log(`Starting with arg ${args}`)
 
-  log('Spawning Clip Trigger now')
+  log('Spawning now')
   const child = child_process.spawn(electron_binary, [app_dir, args])
   child.stdout.on('data', data => process.stdout.write(data))
   child.stderr.on('data', write_stderr)
