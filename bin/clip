@@ -60,7 +60,9 @@ function start() {
 function get_args() {
   let args = []
 
-  if (process.argv.includes('--inspect'))
+  if (process.argv.includes('inspect'))
+    args.push('inspect')
+  else if (process.argv.includes('--inspect'))
     args.push('--inspect')
   else if (process.argv.includes('--inspect-brk'))
     args.push('--inspect-brk')
