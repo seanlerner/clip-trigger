@@ -20,7 +20,7 @@ Clip Trigger is a background application that monitors your clipboard. When your
 
 1. [Navigate to the Clip Trigger releases page](https://github.com/seanlerner/clip-trigger/releases/latest)
 1. Click the `ClipTrigger-X.X.X.dmg` link to download it
-1. To bypass the mac OS security block, use `Control`-`Right Click` to `Open` the downloaded `DMG` file
+1. To bypass the mac OS security block, use `Control`-`Right Click` to `Open` the downloaded `.DMG` file
 1. Drag `ClipTrigger` to your Applications folder
 1. Open your Applications folder
 1. Again, to bypass the mac OS security block, use `Control`-`Right Click` to `Open` the `ClipTrigger` app that exists inside your `Applications` folder
