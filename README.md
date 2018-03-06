@@ -16,6 +16,12 @@ Copy. Paste. Enjoy your bacon. That's all it takes to use Clip Trigger.
 
 Clip Trigger is a background application that monitors your clipboard. When your clipboard content changes (i.e. after you've copied something to it), it checks to see if there's a predefined trigger "shortcode" and if so, executes a process.
 
+## Available Triggers
+
+At present, the most useful triggers available are:
+- [Wunderlist Trigger](https://github.com/seanlerner/wunderlist-trigger): add items to your lists
+- [Spotify Trigger](https://github.com/seanlerner/spotify-trigger): Control Spotify playback, add the currently playing song to your starred list, play a specific playlist
+
 ## Getting Started
 
 1. [Navigate to the Clip Trigger releases page](https://github.com/seanlerner/clip-trigger/releases/latest)
