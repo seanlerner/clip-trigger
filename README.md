@@ -6,7 +6,7 @@ Clip Trigger lets you issue commands without leaving your current application.
 
 Let's say you're developing a website and need some [Bacon Ipsum](https://baconipsum.com/). From your text editor you would:
 
-1. Copy the shortcode. In this case it's "bc".
+1. Copy the shortcode. In this case it's `bc`.
 2. Paste your clipboard contents.
 3. See Bacon Ipsum!
 
