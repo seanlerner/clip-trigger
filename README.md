@@ -18,7 +18,8 @@ Clip Trigger is a background application that monitors your clipboard. When your
 
 ## Getting Started
 
-1. [Download Clip Trigger](https://github.com/seanlerner/clip-trigger-distribution/blob/master/README.md)
+1. [Navigate to the Clip Trigger releases page](https://github.com/seanlerner/clip-trigger/releases/latest)
+1. Click the `ClipTrigger-X.X.X.dmg` link to download it
 1. Install and open Clip Trigger
 1. Open the menu from the Clip Trigger icon (in your system tray)<br><img src=https://github.com/seanlerner/clip-trigger/raw/master/assets/img/system-tray-icon.png>
 1. Select `Triggers` to open the *Trigger Directory*
