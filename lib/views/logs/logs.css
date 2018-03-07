@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #222;
+  color: #eee;
+  font-family: Arial;
+  padding: 1rem;
+}
+
+#container {
+  padding: 1rem;
+}
+
+a {
+  color: orange;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+}
+
+section {
+  margin-bottom: 1rem;
+  text-align: center;
+}
