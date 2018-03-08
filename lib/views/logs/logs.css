@@ -24,7 +24,7 @@ body,
 }
 
 .log_container h2 {
-  background: rgba(100, 100, 100, .1);
+  background: rgba(0, 0, 0, .8);
   padding: 1rem;
   position: absolute;
   right: 1rem;
