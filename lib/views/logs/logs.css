@@ -61,3 +61,7 @@ body,
 #error_log {
   color: rgb(255, 222, 222);
 }
+
+pre {
+    white-space: pre-wrap;
+}
