@@ -6,8 +6,8 @@ fs            = require('fs')
 chalk         = require('chalk')
 
 // Helper
-Helper = require('./helper')
-helper = new Helper
+Helper        = require('./helper')
+helper        = new Helper
 
 // Test Files
 TestsLoader   = require('./tests_loader')
