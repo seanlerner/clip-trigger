@@ -1,0 +1,26 @@
+[2018-03-11 22:31:30.935] [info] Env:      test
+[2018-03-11 22:31:30.938] [info] Process:  51480
+[2018-03-11 22:31:30.939] [info] Version:  0.0.6
+[2018-03-11 22:31:30.939] [info] Settings: /var/folders/_3/_82ywnj53x1bv0sl_txhs61w0000gn/T/electron-mocha-U3T9BM/Settings
+[2018-03-11 22:31:30.940] [info] Logging:  /Users/sean/Library/Logs/electron-mocha/log.log
+[2018-03-11 22:31:30.950] [debug] Starting clipboard monitor
+[2018-03-11 22:31:30.985] [info] Setting up bacon-ipsum-trigger
+[2018-03-11 22:31:30.986] [info] Setting up hello-world-trigger
+[2018-03-11 22:31:30.987] [info] Setting up wunderlist-trigger
+[2018-03-11 22:31:31.150] [info] Clip Trigger Ready!
+[2018-03-11 22:31:31.151] [info] Checking if update available.
+[2018-03-11 22:31:31.151] [info] Current version: 0.0.6
+[2018-03-11 22:31:31.211] [info] info test
+[2018-03-11 22:31:33.586] [info] Env:      test
+[2018-03-11 22:31:33.594] [info] Process:  51577
+[2018-03-11 22:31:33.594] [info] Version:  0.0.6
+[2018-03-11 22:31:33.595] [info] Settings: /var/folders/_3/_82ywnj53x1bv0sl_txhs61w0000gn/T/electron-mocha-gDmbJy/Settings
+[2018-03-11 22:31:33.596] [info] Logging:  /Users/sean/Library/Logs/electron-mocha/log.log
+[2018-03-11 22:31:33.603] [debug] Starting clipboard monitor
+[2018-03-11 22:31:33.639] [info] Setting up bacon-ipsum-trigger
+[2018-03-11 22:31:33.640] [info] Setting up hello-world-trigger
+[2018-03-11 22:31:33.641] [info] Setting up wunderlist-trigger
+[2018-03-11 22:31:33.759] [info] Clip Trigger Ready!
+[2018-03-11 22:31:33.760] [info] Checking if update available.
+[2018-03-11 22:31:33.761] [info] Current version: 0.0.6
+[2018-03-11 22:31:33.816] [info] info test
