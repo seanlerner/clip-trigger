@@ -1,1 +1,1 @@
-require('./lib/main/setup')
+require('./lib/main/setup/setup')
