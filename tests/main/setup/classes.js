@@ -1,5 +1,3 @@
-require('../../test_helper')
-
 const classes = [ 'About', 'Account', 'Clipboard', 'Monitor', 'Config', 'Log', 'Logs', 'Menu', 'Notify', 'Prefs', 'Ready', 'Run', 'Reject', 'System', 'Teardown', 'Tray', 'TriggerDirectory', 'Triggers', 'Updater']
 
 const test_class = klass => {
