@@ -26,11 +26,16 @@
   },
   "watch": {
     "test": {
-      "patterns": ["lib", "tests"]
+      "patterns": [
+        "lib",
+        "tests"
+      ]
     }
   },
   "scripts": {
+    "dist": "electron-builder",
     "publish": "build -p always",
+    "pack": "electron-builder --dir",
     "test": "CT_ENV=test ELECTRON_PATH=/Users/sean/code/clip/client/clip-trigger/node_modules/electron/dist/Electron.app/Contents/MacOS/Electron electron-mocha --recursive ./tests",
     "watch": "npm-watch"
   },
