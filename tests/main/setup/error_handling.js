@@ -1,9 +1,9 @@
 describe('error_handling.js', () => {
 
   it('ErrorHandler', () => {
-    const expected = 'function'
     const actual   = typeof ErrorHandler
-    assert.equal(expected, actual)
+    const expected = 'function'
+    assert.equal(actual, expected)
   })
 
   it('uncaughtException', () => {

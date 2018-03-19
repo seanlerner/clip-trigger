@@ -1,44 +1,44 @@
 describe('node.js', function () {
 
   it('child_process', () => {
-    const expected = 'object'
     const actual   = typeof child_process
+    const expected = 'object'
     assert.equal(actual, expected, 'child_process setup failed.')
   })
 
   it('fs', () => {
-    const expected = 'object'
     const actual   = typeof fs
+    const expected = 'object'
     assert.equal(actual, expected, 'fs setup failed.')
   })
 
   it('os', () => {
-    const expected = 'object'
     const actual   = typeof os
+    const expected = 'object'
     assert.equal(actual, expected, 'os setup failed.')
   })
 
   it('path', () => {
-    const expected = 'object'
     const actual   = typeof path
+    const expected = 'object'
     assert.equal(actual, expected, 'path setup failed.')
   })
 
   it('url', () => {
-    const expected = 'object'
     const actual   = typeof url
+    const expected = 'object'
     assert.equal(actual, expected, 'url setup failed.')
   })
 
   it('util', () => {
-    const expected = 'object'
     const actual   = typeof util
+    const expected = 'object'
     assert.equal(actual, expected, 'util setup failed.')
   })
 
   it('yamljs', () => {
-    const expected = 'function'
     const actual   = typeof yamljs
+    const expected = 'function'
     assert.equal(actual, expected, 'yamljs setup failed.')
   })
 
