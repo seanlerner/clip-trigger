@@ -1,4 +1,6 @@
 assert = require('assert')
-require('../index.js')
-new CT.Ready()
 
+require('./wait_for.js')
+require('../index.js')
+
+new CT.Ready()
