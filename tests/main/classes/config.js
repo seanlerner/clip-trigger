@@ -2,7 +2,7 @@ describe('config.js', () => {
 
   it('constructor', () => {
     assert.equal(CT.config.env, 'test')
-    assert.equal(CT.config.clip_trigger_server, 'http://localhost:3000/')
+    assert.equal(CT.config.clip_trigger_server, 'https://clip.smallcity.ca/')
     assert(CT.config.console_logging)
   })
 

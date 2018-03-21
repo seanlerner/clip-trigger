@@ -1,3 +1,5 @@
 module.exports = {
-  clip_trigger_server: 'http://localhost:3000/'
+  check_interval:  1,
+  console_logging: true,
+  clip_trigger_server: 'https://clip.smallcity.ca/'
 }

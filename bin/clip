@@ -12,7 +12,6 @@ start()
 function setup() {
   process.env.CT_TTY      = true
   process.env.FORCE_COLOR = true
-  process.env.CT_ENV      = get_env()
 
   if (process.argv.includes('debug')) {
     log('Debug logging on')
@@ -24,15 +23,6 @@ function setup() {
     process.env.CT_DEBUGGER_ON_CRASH = true
   }
 
-}
-
-function get_env() {
-  if (process.argv.includes('dev'))
-    return 'dev'
-  else if (process.argv.includes('test'))
-    return 'test'
-  else
-    return 'prod'
 }
 
 function write_stderr(data) {

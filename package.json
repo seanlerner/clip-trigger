@@ -22,7 +22,8 @@
   "devDependencies": {
     "electron": "1.8.2",
     "electron-builder": "19.56.0",
-    "electron-mocha": "^5.0.0"
+    "electron-mocha": "^5.0.0",
+    "sepia": "palmerj3/sepia#doNotProxyLive"
   },
   "watch": {
     "test": {
