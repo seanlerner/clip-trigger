@@ -18,5 +18,6 @@ sepia.filter({
 })
 
 module.exports = {
-  check_interval: 1
+  check_interval: 1,
+  notify:         false
 }
