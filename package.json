@@ -27,10 +27,7 @@
   },
   "watch": {
     "test": {
-      "patterns": [
-        "lib",
-        "tests"
-      ]
+      "patterns": [ "." ]
     }
   },
   "scripts": {
