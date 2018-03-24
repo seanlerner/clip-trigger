@@ -15,6 +15,11 @@ module.exports = class {
       case 'are_you_there?':
         trigger_run.resolve('I am here.')
         break
+      case 'reload':
+        const trigger = args.pop() + '-trigger'
+        CT.triggers.setup_trigger(trigger)
+        trigger_run.resolve(trigger + ' reloaded')
+        break
       default:
         trigger_run.reject(`Unknown ct command: ${args.join(' ')}`)
     }
