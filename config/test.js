@@ -21,7 +21,7 @@ CT.vendor.settings.setPath(path.join(CT.dir.tests, 'Settings'))
 CT.dir.installed_triggers = path.join(CT.dir.tests, 'triggers')
 
 module.exports = {
-  check_interval: 1,
-  console_logging: false,
-  notify:         false
+  check_interval:  1,
+  console_logging: true,
+  notify:          false
 }

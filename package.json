@@ -34,7 +34,7 @@
     "dist": "electron-builder",
     "publish": "build -p always",
     "pack": "electron-builder --dir",
-    "test": "CT_ENV=test ELECTRON_PATH=/Users/sean/code/clip/client/clip-trigger/node_modules/electron/dist/Electron.app/Contents/MacOS/Electron electron-mocha --recursive ./tests",
+    "test": "CT_ENV=test ELECTRON_PATH=/Users/sean/code/clip/client/clip-trigger/node_modules/electron/dist/Electron.app/Contents/MacOS/Electron console_logging=false electron-mocha --recursive ./tests",
     "watch": "npm-watch"
   },
   "license": "MIT"
