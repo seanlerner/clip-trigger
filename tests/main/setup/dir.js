@@ -24,10 +24,15 @@ describe('dir.js', function () {
     assert.equal(actual, expected)
   })
 
-  it('triggers', () => {
-    console.log(process.env.HOME)
-    const actual   = CT.dir.triggers
-    const expected = process.env.HOME + '/Library/Application Support/ClipTrigger/triggers'
+  it('installed_triggers', () => {
+    const actual   = CT.dir.installed_triggers
+    const expected = CT.dir.tests + '/triggers'
+    assert.equal(actual, expected)
+  })
+
+  it('user_triggers', () => {
+    const actual   = CT.dir.user_triggers
+    const expected = process.env.HOME + '/triggers'
     assert.equal(actual, expected)
   })
 

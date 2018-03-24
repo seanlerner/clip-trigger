@@ -1,11 +1,9 @@
 process.env.VCR_MODE='cache'
 
-CT.vendor.settings.setPath(path.join(CT.dir.tests, 'Settings'))
-
 sepia = require('sepia')
 
 sepia.configure({
-  verbose: true,
+  // verbose: true,
   debug:   true
 })
 
@@ -18,6 +16,9 @@ sepia.filter({
   url: /a\.wunderlist\.com.+api\/health/,
   forceLive: true
 })
+
+CT.vendor.settings.setPath(path.join(CT.dir.tests, 'Settings'))
+CT.dir.installed_triggers = path.join(CT.dir.tests, 'triggers')
 
 module.exports = {
   check_interval: 1,
